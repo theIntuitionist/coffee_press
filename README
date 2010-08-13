@@ -17,6 +17,9 @@ rails plugin install git://github.com/theIntuitionist/coffee_press.git
 Usage
 =====
 
+Put your coffee scripts in app/scripts they will compile to public/javascripts
+
+
 rake coffee:press
 
 
