@@ -1,13 +1,23 @@
 CoffeePress
 ===========
 
-Introduction goes here.
+Coffee Press cleanly integrates coffee script with your rails project.  
+
+Benefits:
+* Errors in compilation show up as alerts on your page so you don't have to wonder if you have a logical or syntactic error
+* Independant rake task doesn't assume passenger, and doesn't run during the request response cycle
+* Works with Rails 3, should work with rails 2
+
+Install
+======
+
+rails plugin install git://github.com/theIntuitionist/coffee_press.git
 
 
-Example
-=======
+Usage
+=====
 
-Example goes here.
+rake coffee:press
 
 
-Copyright (c) 2010 [name of plugin creator], released under the MIT license
+Copyright (c) 2010 Jason Libsch, released under the MIT license
